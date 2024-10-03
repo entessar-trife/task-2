@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.nav a, footer a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(./imgs/photo_2024-08-26_06-19-39.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  background-color: rgb(201, 201, 210 , 0.5);
+  font-size: 50px;
+  padding: 5px;
+  color: white;
+}
+
+.about,.services,
+.Specialization,
+.our-teachers,.plans, .contact {
+  height: 100vh;
+}
+
+.about, .Specialization, .plans {
+  background-color: rgb(245, 241, 241);
+}
+
+.services, .our-teachers {
+  background-color: bisque;
+}
+
+.about, .services, .Specialization,
+.our-teachers, .plans, .contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about h2, .services h2,
+.Specialization h2, .our-teachers h2,
+.plans h2 {
+  font-size: 50px;
+  margin: 15px;
+}
+
+.about p, .service-description,
+.one p, .two p, .three p,
+.Specialization-description p {
+  font-size: 20px;
+}
+
+.text-area {
+  margin: 15px;
+}
+
+.service-title,.service-description,
+.Specialization-title, .Specialization-description,
+.teachers {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 50px;
+}
+
+.service-title h3, .description div,
+.Specialization-title h3, .Specialization-description div,
+.teachers h3 {
+  padding:15px 50px;
+}
+
+.service-title h3, .one h3,
+.two h3, .three h3, 
+.Specialization-title h3 {
+  font-size: 25px;
+}
+
+.one, .two, .three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.one p, .two p, .three p,
+.Specialization-description p,
+.contact-info p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plans-title {
+  display: flex;
+}
+
+.four, .five, .six {
+  background-color: bisque;
+  border-radius: 10px;
+  width: 250px;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.four img, .five img, .six img {
+  width:100%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.four h3, .five h3, .six h3 {
+  text-align: center;
+  margin: 10px;
+}
+
+.details {
+  background-color: rgb(241, 235, 62);
+  border: 1px solid orange;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.four ul li,
+.five ul li, 
+.six ul li {
+  list-style-position: inside;
+  margin: 0 10px;
+}
+
+.contact h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.contact-us  {
+  height: 50%;
+  background-color: rgb(251, 229, 202);
+}
+
+.contact-info {
+  height: 50%;
+  background-color:  rgb(245, 226, 203);
+}
+
+form {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin: 0 auto;
+}
+
+form input, textarea {
+  margin: 5px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+form .button {
+  background-color: rgb(41, 40, 40);
+  color: white;
+  border-radius: 5px;
+  padding:5px 10px;
+  border: 2px solid rgb(41, 40, 40);
+  width: 150px;
+  margin: 10px auto;
+}
+
+.contact-info p {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(42, 41, 41);
+  justify-content: center;
+}
+
+.footer a {
+  padding:5px 15px;
+}

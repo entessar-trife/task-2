@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* hero styling */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  background-color: rgb(123, 119, 122);
+  padding: 20px ;
+}
+
+.img, .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img .profile {
+  border-radius: 100px;
+  padding-top: 10px;
+}
+
+.title h1, h2,h3 {
+  padding: 10px;
+}
+
+.title h1 {
+  font-size: 30px;
+}
+
+.title h2 {
+  font-size: 20px;
+}
+
+/* main styling */
+main {
+  border: 0.5px solid gray;
+  margin: 10px auto;
+  width: 800px;
+}
+
+.span {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.follow,.contact, .experience,
+.education, .education,
+.skills , .interests {
+  margin: 20px 10px ;
+}
+
+.follow .social-media {
+  margin-top: 10px;
+}
+
+.follow .social-media a {
+  padding: 0 5px;
+}
+
+.list, .info {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.info {
+  margin: 10px 10px; 
+}
+
+.contact .info a {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.list li {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.skills .list li,
+.interests .list li {
+  width: 120px;
+  text-align: center;
+}
+
+.all-titles {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.all-titles span {
+  padding: 0 5px;
+}
+
+.all-titles img {
+  background-color: gray;
+  padding: 5px;
+}
+
+.line {
+  border-top: 1px solid gray;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
